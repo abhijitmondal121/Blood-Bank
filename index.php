@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Blood-Bank!</title>
+    <title>Blood Bank!</title>
   </head>
   <style>
   #home{
-    height:570px; padding:20px 0px; background-image: url('partials/hos4.jpg');background-size: 100%; 
+    height:630px; 
   }
   #image{
     height:350px;
@@ -65,7 +65,7 @@
 @media screen and (min-device-width: 501px) and (max-device-width: 1170px){
 
   #home{
-    height:370px; padding:20px 0px; background-image: url('partials/hos4.jpg');background-size: 100%;background-repeat: no-repeat;; 
+    height:470px; 
   }
   #image{
     height:200px;
@@ -120,7 +120,7 @@
 @media screen and (min-device-width: 294px) and (max-device-width: 500px){
 
 #home{
-  height:160px; padding:20px 0px; background-image: url('partials/hos4.jpg');background-size: 100%;background-repeat: no-repeat;; 
+  height:300px;
 }
 #image{
   height:220px;
@@ -184,18 +184,62 @@ from, to { border-color: transparent }
   <?php include "partials/dbconnect.php";
   include "partials/header.php";
   ?>
+<!-- 
+<div class=" jumbo-bg jumbotron jumbotron-fluid mb-2" id="home"style="" > -->
 
-<div class=" jumbo-bg jumbotron jumbotron-fluid mb-2" id="home"style="" >
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 "id="home" src="partials/hos6.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " id="home" src="partials/hos2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" id="home" src="partials/hos3.jpg" alt="Third slide" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 </div>
-<center><h2 class="py-2">The gift of blood is the gift of life</h2></center>
+<center><h2 class="py-3">The gift of blood is the gift of life</h2></center>
 <div class="container mt-1 mb-2 pt-2 pb-0" id="about_section">
-<center><h1 class=" mt-4 mb-2 pt-4">About Us</h1></center>
+<center><h1 class=" mt-2 mb-2 ">About Us</h1></center>
 
-<div class="row py-4">
+<div class="row py-2">
 
 <div class="col-md-4" >
 <img src="partials/ab3.png" id="image" alt="" srcset="">
