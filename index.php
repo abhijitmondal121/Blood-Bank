@@ -55,12 +55,6 @@
   from, to { border-color: transparent }
   50% { border-color: white; }
 }
-
-
-
-
-
-
 @media screen and (min-device-width: 501px) and (max-device-width: 1170px){
 
   #home{
