@@ -104,10 +104,7 @@
   from, to { border-color: transparent }
   50% { border-color: white; }
 }
-
 }
-
-
 @media screen and (min-device-width: 294px) and (max-device-width: 500px){
 
 #home{
