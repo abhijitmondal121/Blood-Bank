@@ -218,22 +218,6 @@ from, to { border-color: transparent }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 <center><h2 class="py-3">The gift of blood is the gift of life</h2></center>
 <div class="container mt-1 mb-2 pt-2 pb-0" id="about_section">
