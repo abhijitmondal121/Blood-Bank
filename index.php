@@ -168,8 +168,6 @@ from, to { border-color: transparent }
   ?>
 <!-- 
 <div class=" jumbo-bg jumbotron jumbotron-fluid mb-2" id="home"style="" > -->
-
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
