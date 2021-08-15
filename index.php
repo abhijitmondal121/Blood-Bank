@@ -78,7 +78,6 @@
   h1{
     font-size:35px;
   }
-
    h2 {
      font-size:35px;
      font-family: Georgia, serif;
