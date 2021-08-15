@@ -161,8 +161,6 @@ from, to { border-color: transparent }
 50% { border-color: white; }
 }
 }
-
-
   </style>
   <body>
   <?php include "partials/dbconnect.php";
