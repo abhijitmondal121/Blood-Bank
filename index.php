@@ -215,8 +215,6 @@ from, to { border-color: transparent }
 
 </div>
 </div>
-
-
 <div class="contai mt-3">
 <div class="container py-4" id="blood_section">
 <center><h1 class=" my-5">Why Donate Blood?</h1></center>
