@@ -112,8 +112,6 @@
   50% { border-color: white; }
 }
 
-
-
 }
 
 
