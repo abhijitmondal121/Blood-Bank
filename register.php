@@ -98,13 +98,6 @@ include "partials/dbconnect.php";
   </style>
   <body>
   <?php include "partials/header.php"; ?>
-
-
-
-
-
-
-
 <div class="container my-4">
 
 
