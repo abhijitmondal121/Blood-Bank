@@ -40,13 +40,8 @@ include "partials/dbconnect.php";
                         $showAlert= true;
                         header("Location: /bloodbank/index.php?signupsuccess=true");
                         exit();
-                       }
-                      
+                       } 
                     }
-
-
-
-
        }
     //echo 'unable to signup';
     // header("Location: /bloodbank/index.php?signupsuccess=false&error=$showError");
