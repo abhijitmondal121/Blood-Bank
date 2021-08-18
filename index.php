@@ -232,9 +232,6 @@ Our nation requires 4 Crore Units of Blood while only 40 lakh units are availabl
 </div>
 
 </div>
-
-
-
 <?php include "partials/_footer.php";  ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
