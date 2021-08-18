@@ -55,24 +55,6 @@ include "partials/dbconnect.php";
         
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!doctype html>
 <html lang="en">
   <head>
