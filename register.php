@@ -52,8 +52,6 @@ include "partials/dbconnect.php";
     // header("Location: /bloodbank/index.php?signupsuccess=false&error=$showError");
 
 }
-        
-
 ?>
 <!doctype html>
 <html lang="en">
