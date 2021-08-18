@@ -17,8 +17,6 @@ include "partials/dbconnect.php";
 
 
     if($uname== '' || $email== '' || $pass== '' || $phone== ''||$address== '' || $city== '' || $state== '' || $code== ''|| $blood== ''){
-      
-      // header("Location:/bloodbank/show.php?we cannot verify your request");
       echo"<script>alert('Please fill up all details')</script>";
   
       }
