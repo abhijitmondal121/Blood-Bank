@@ -85,11 +85,8 @@ include "partials/dbconnect.php";
   }
   h2{
     font-size:26px;
-
   }
-
 }
-
   </style>
   <body>
   <?php include "partials/header.php"; ?>
