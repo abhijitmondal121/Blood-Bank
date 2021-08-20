@@ -263,9 +263,6 @@ include "partials/request_for_myself_modal.php";
 include "partials/request_for_others_modal.php";
 ?>
 
-
-
-
 </div>
 </div>
 </div>
