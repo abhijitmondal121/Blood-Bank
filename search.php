@@ -108,8 +108,6 @@ font-size:11px;
 
 
 
-
-
 <div class="con-fluid">
 <form action="search.php"  method="GET">
 <div class="row m-2">
