@@ -172,7 +172,6 @@ $search=$_GET['search'];
 
 
 
-
  $sql="SELECT * FROM `bank` WHERE `$search` >0 ";
  $result=mysqli_query($conn,$sql);
  while($rows=mysqli_fetch_array($result)){
