@@ -82,10 +82,6 @@ include "partials/dbconnect.php";
 
 
 
-
-
-
-
 <div class="container my-5 ">
 
 
