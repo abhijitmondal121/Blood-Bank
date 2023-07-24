@@ -22,8 +22,7 @@ include "partials/dbconnect.php";
         else
         {          
         header("Location: /bloodbank/index.php?loginsuccess=false");
-        }
-                
+        }                
 }
         
  ?>    

@@ -10,7 +10,6 @@
       </div>
       <div class="modal-body">
 
-
       
       <form action="partials/handle_request_others.php" method="POST">
       <div class="form-group my-3">

@@ -13,6 +13,7 @@
   #home{
     height:630px; 
   }
+  
   #image{
     height:350px;
     width:320px;

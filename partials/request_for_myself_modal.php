@@ -11,7 +11,6 @@
       <div class="modal-body">
        
 
-      
       <form action="partials/handle_request_me.php" method="POST">
       <div class="form-group my-3">
           <label for="exampleInputEmail1">Patients Name</label>

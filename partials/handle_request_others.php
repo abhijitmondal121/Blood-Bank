@@ -26,7 +26,6 @@ include "dbconnect.php";
                       header("Location:/bloodbank?request_others=success");            
                      }
 
-
                 else{
                   header("Location:/bloodbank?request_me=not_insert"); 
                 }

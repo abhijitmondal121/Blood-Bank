@@ -24,7 +24,6 @@
   }
 
   @media screen and (min-device-width: 501px) and (max-device-width: 752px){
-
     .blood-icon{
     height:70px;
     width:80px;

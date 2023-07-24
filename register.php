@@ -15,7 +15,6 @@ include "partials/dbconnect.php";
         $code=$_POST['code'];
         $blood=$_POST['blood'];
 
-
     if($uname== '' || $email== '' || $pass== '' || $phone== ''||$address== '' || $city== '' || $state== '' || $code== ''|| $blood== ''){
       echo"<script>alert('Please fill up all details')</script>";
   

@@ -16,7 +16,6 @@ include "dbconnect.php";
 
         else {
           
-        
             $sql = "INSERT INTO `request_blood` (`p_name`, `email`, `blood_group`, `sample_number`) VALUES ( '$name', '$email', '$bg', '$number')";
             $result = mysqli_query($conn, $sql);
      
