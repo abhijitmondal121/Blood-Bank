@@ -13,6 +13,6 @@
     
 </div>
 
-<p class="text-center mb-0 mt-4"style="font-size:18px;"><b>Copyright Blood-Bank Community 2021 || all reserve</b></p>
+<p class="text-center mb-0 mt-4"style="font-size:18px;"><b>Copyright Blood-Bank Community 2023 || all reserve</b></p>
 
 </div>

@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2021 at 06:21 PM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.2.34
+-- Generation Time: Jun 14, 2024 at 06:56 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -34,14 +34,16 @@ CREATE TABLE `request_blood` (
   `blood_group` varchar(255) NOT NULL,
   `sample_number` varchar(255) NOT NULL,
   `timestamp` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `request_blood`
 --
 
 INSERT INTO `request_blood` (`slno`, `p_name`, `email`, `blood_group`, `sample_number`, `timestamp`) VALUES
-(1, 'abhi', 'a@gmail.com', 'A+', '5', '0000-00-00 00:00:00');
+(1, 'abhi', 'a@gmail.com', 'A+', '5', '0000-00-00 00:00:00'),
+(2, 'Abhijit', 'mondalavi172@gmail.com', 'A-', '1', '0000-00-00 00:00:00'),
+(3, 'Abbi', 'abhijitmondal.bca2019@nsec.ac.in', 'B-', '1', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +63,7 @@ ALTER TABLE `request_blood`
 -- AUTO_INCREMENT for table `request_blood`
 --
 ALTER TABLE `request_blood`
-  MODIFY `slno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `slno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

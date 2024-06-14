@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2021 at 06:21 PM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.2.34
+-- Generation Time: Jun 14, 2024 at 06:56 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,14 +39,15 @@ CREATE TABLE `users` (
   `p_code` varchar(255) NOT NULL,
   `blood_group` varchar(255) NOT NULL,
   `date` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`slno`, `name`, `email`, `pass`, `Phone-Number`, `address`, `city`, `state`, `p_code`, `blood_group`, `date`) VALUES
-(1, 'student', 'mondalavi9836@gmail.com', '1', '9836404710', 'Garia station kolkata', 'Kolkata', 'West Bengal', ' 700150', 'ab_positive', '2021-07-07 21:47:52');
+(2, 'Abhi', 'mondalavii9836@gmail.com', '11', '09836404710', 'GARIA STATION NATUNDIYARA BASHPOOL', 'KOLKATA', 'WEST BENGAL', ' 700150', 'ab_negative', '2024-05-30 22:40:01'),
+(3, 'Abbi', 'abhijitmondal.bca2019@nsec.ac.in', '11', '09836404710', 'Garia Station', 'Kolkata', 'Bengal', ' 700150', 'b_negative', '2024-05-31 10:40:31');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +67,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `slno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `slno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
